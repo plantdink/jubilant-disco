@@ -8,8 +8,8 @@ video {
 
 /* Include images */
 .hero-container {
-  background: center center/cover no-repeat;
-  height: 100vh;
+  background: url('../images/20130201_KSL_2403.jpg') center center/cover no-repeat;
+  height: 80vh;
   width: 100%;
   display: flex;
   flex-direction: column;

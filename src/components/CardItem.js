@@ -5,11 +5,21 @@ function CardItem (props) {
   return (
     <div>
       <li className='cards--item'>
-        <Link className='cards--item--link' to={props.path}>
-          <figure className='cards--item--pic-wrap' data-category={props.label}>
-            <img src={props.src} alt="" className='cards--items--img'/>
-          </figure>
-          <div className='cards--item--info'>
+        <Link
+          className='cards--item--link'
+          to={props.path}
+        >
+        <figure
+          className='cards--item--pic-wrap'
+          data-category={props.label}
+        >
+        <img
+          src={props.src}
+          alt=""
+          className='cards--items--img'
+        />
+        </figure>
+        <div className='cards--item--info'>
             <h5 className='cards--item--text'>{props.text}</h5>
           </div>
         </Link>

@@ -7,7 +7,7 @@ h1 {
   text-align: center;
 }
 
-.cards--container {
+.card--container {
   display: flex;
   flex-flow: column;
   align-items: center;

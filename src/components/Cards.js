@@ -5,13 +5,28 @@ import './Cards.css';
 function Cards() {
   return (
     <div className='cards'>
-      <h1>Projects</h1>
-      <div className="card--container">
-        <div className="cards--wrapper">
-          <ul className="cards--items">
-            <CardItem src='' text='This is things I have made' label='Projects' path='/projects' />
-            <CardItem src='' text='This is things I know' label='Skills' path='/skills' />
-            <CardItem src='' text='This is where I have been' label='History' path='/history' />
+      <h1>About me</h1>
+      <div className='card--container'>
+        <div className='cards--wrapper'>
+          <ul className='cards--items'>
+            <CardItem
+              src=''
+              text='Software Engineering projects'
+              label='Projects'
+              path='/projects'
+            />
+            <CardItem
+              src=''
+              text='Skillset and Technology stack'
+              label='Skills'
+              path='/skills'
+            />
+            <CardItem
+              src=''
+              text='Education and Work History'
+              label='History'
+              path='/history'
+            />
           </ul>
         </div>
       </div>

@@ -1,9 +1,13 @@
 import React from 'react';
 import '../../App.css';
+import Footer from '../Footer';
 
 function History() {
   return(
-    <h1 className='history'>History</h1>
+    <div>
+      <h1 className='history'>History</h1>
+      <Footer />
+    </div>
   )
 };
 

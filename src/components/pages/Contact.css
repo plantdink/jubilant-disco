@@ -1,0 +1,32 @@
+.contact {
+  height: 50vh;
+  padding: 4rem;
+  background: #fcfcfc;
+}
+
+.contact--details--container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  max-width: 1120px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.contact--wrapper {
+  color: #020323;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex: 1;
+  margin: 4rem 0 1rem;
+  border-radius: 10px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.contact--wrapper > a {
+  color: #020323;
+  text-decoration: none;
+  font-size: 1.17em;
+
+}
