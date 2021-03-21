@@ -7,6 +7,7 @@
   display: flex;
   flex-flow: column;
   align-items: center;
+  min-height: 75vh;
   max-width: 1120px;
   width: 90%;
   margin: 0 auto;
@@ -26,11 +27,11 @@
   margin-bottom: 2rem;
 }
 
-li {
+.skills--items li {
   padding: 1rem;
 }
 
-li > i {
+.skills--items li > i {
   padding: .5rem;
   color: #020323;
   font-size: 3rem;
@@ -54,6 +55,7 @@ li > i {
   .skills--items {
     flex-direction: column;
     align-content: left;
+    text-align: left;
     margin-bottom: 2rem;
   }
 }
