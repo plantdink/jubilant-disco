@@ -15,11 +15,11 @@ function Footer() {
               Ken Livesey <i className='fas fa-terminal' />
             </Link>
           </div>
-          <small className='website-rights'>Ken Livesey © 2021</small>
+          <small className='website-rights'>© Copyright 2021</small>
           <div className='social-icons'>
             <Link
               className='social-icon-link'
-              to=''
+              to='https://github.com/plantdink'
               target='_blank'
               aria-label='GitHub'
             >
@@ -27,7 +27,7 @@ function Footer() {
             </Link>
             <Link
               className='social-icon-link'
-              to=''
+              to='https://www.linkedin.com/in/kenlivesey/'
               target='_blank'
               aria-label='LinkedIn'
             >
@@ -35,7 +35,7 @@ function Footer() {
             </Link>
             <Link
               className='social-icon-link'
-              to=''
+              to='https://www.flickr.com/photos/plantdink/'
               target='_blank'
               aria-label='Flickr'
             >

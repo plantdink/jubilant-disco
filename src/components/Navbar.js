@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import ContactButton from './ContactButton';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
+import './Button.css';
 
 
 function Navbar() {

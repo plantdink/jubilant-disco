@@ -1,22 +1,25 @@
 .skills {
-  padding: 4rem;
   background: #fcfcfc;
 }
 
-.skills--container {
+.skills--wrapper {
+  height: 60vh;
   display: flex;
   flex-flow: column;
   align-items: center;
-  min-height: 75vh;
+  justify-content: center;
   max-width: 1120px;
   width: 90%;
-  margin: 0 auto;
+  margin: 4rem auto;
+  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+  -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+  filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+  border-radius: 10px;
 }
 
-.skills--wrapper {
-  text-align: center;
+.skills--container {
+  text-align: left;
   position: relative;
-  margin: 2.5rem 0 1rem;
 }
 
 .skills--items {

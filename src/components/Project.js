@@ -9,23 +9,30 @@ function Project (props) {
       <img
         src={ props.img }
         alt={ props.altText }
+        className='project--image'
       />
       <div className='project--body'>
         <h2>{ props.title }</h2>
         <p>{ props.paragraph }</p>
+      </div>
+      <div className='project--tech'>
         <h5>{ props.tech }</h5>
       </div>
       <div className='project--btns'>
-        <Link to={ props.gitLink }>
-          <button className='btn btn--outline btn--large'>
-            Code
-          </button>
-        </Link>
-        <Link to={ props.siteLink }>
-          <button className='btn btn--outline btn--large'>
-            Site
-          </button>
-        </Link>
+          <a
+            href={ props.gitLink }
+            className='btn btn--primary btn--large'
+            target='_blank'
+          >
+            See the Code
+          </a>
+          <a
+            href={ props.siteLink }
+            className='btn btn--primary btn--large'
+            target='_blank'
+          >
+            Visit the Site
+          </a>
       </div>
     </div>
   );

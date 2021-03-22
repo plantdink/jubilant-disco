@@ -1,0 +1,31 @@
+.pbs--container {
+  padding: 0 4rem;
+  background: #fcfcfc;
+}
+
+.pbs--wrapper {
+  position: relative;
+  margin-top: 50px;
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+  -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+  filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+  border-radius: 10px;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.pbs--content {
+  padding: 2rem;
+}
+
+.pbs--text {
+  padding: 1rem;
+  font-size: 1.6em;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  letter-spacing: 0.1em;
+  line-height: 130%;
+}

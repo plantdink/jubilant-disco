@@ -6,9 +6,10 @@ import './Skills.css'
 
 function Skills() {
   return(
-    <div>
-      <div className='skills--container'>
-        <div className='skills--wrapper'>
+    <div className='skills'>
+    <h1>Things I know</h1>
+      <div className='skills--wrapper'>
+        <div className='skills--container'>
           <h1>Currently learning</h1>
             <ul className='skills--items'>
               <li><i className="devicon-python-plain" /> Python</li>
