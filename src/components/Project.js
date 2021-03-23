@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './Button.css';
 import './pages/Projects.css';
 
@@ -23,6 +22,7 @@ function Project (props) {
             href={ props.gitLink }
             className='btn btn--primary btn--large'
             target='_blank'
+            rel='noreferrer'
           >
             See the Code
           </a>
@@ -30,6 +30,7 @@ function Project (props) {
             href={ props.siteLink }
             className='btn btn--primary btn--large'
             target='_blank'
+            rel='noreferrer'
           >
             Visit the Site
           </a>

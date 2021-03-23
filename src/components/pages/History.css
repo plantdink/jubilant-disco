@@ -30,8 +30,6 @@
   line-height: 130%;
 }
 
-
-
 h2.history--text {
   padding-bottom: 0;
   font-size: 1.6em;
@@ -39,7 +37,7 @@ h2.history--text {
 
 h3.history--text {
   padding-top: 0;
-  padding-bottom: 1rem;
+  padding-bottom: .5rem;
   font-size: 1.3em;
 }
 
@@ -48,5 +46,5 @@ p.history--text {
   padding-bottom: 1.2rem;
   font-size: 1.2em;
   font-family: 'Raleway', sans-serif;
-  font-weight: 400;
+  font-weight: 300;
 }

@@ -1,6 +1,9 @@
 import React from 'react';
 import CardItem from './CardItem';
 import './Cards.css';
+import SoftwareImage from '../images/20210323_KSL_5988.jpg';
+import SkillsetImage from '../images/20140427_KSL_0374.jpg'
+import HistoryImage from '../images/20120418_KSL_3766.jpg';
 
 function Cards() {
   return (
@@ -9,24 +12,21 @@ function Cards() {
         <div className='cards--wrapper'>
           <ul className='cards--items'>
             <CardItem
-              src='https://picsum.photos/250/200'
+              src={ SoftwareImage }
               altText='This is an image'
-              text='Software Engineering projects'
-              label='Projects'
+              text='Software projects'
               path='/projects'
             />
             <CardItem
-              src='https://picsum.photos/250/200'
+              src={ SkillsetImage }
               altText='This is an image'
-              text='Skillset and Technology stack'
-              label='Skills'
+              text='Skillset'
               path='/skills'
             />
             <CardItem
-              src='https://picsum.photos/250/200'
+              src={ HistoryImage }
               altText='This is an image'
-              text='Education and Work History'
-              label='History'
+              text='Work History'
               path='/history'
             />
           </ul>

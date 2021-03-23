@@ -1,16 +1,18 @@
 import React from 'react';
-import '../../App.css';
 import Footer from '../Footer';
+import HeaderItem from '../HeaderItem';
 import './Contact.css';
 
 function Contact() {
   return(
-    <div>
+    <>
+    <HeaderItem title='Preferred contact methods'
+    >
+    </HeaderItem>
       <div className='contact'>
-        <h1>Preferred methods of contact</h1>
         <div className='contact--details--container'>
           <div className='contact--wrapper'>
-            <h3>kenlivesey10 at gmail.com</h3>
+            <h2>kenlivesey10 at gmail.com</h2>
           </div>
           <div className='contact--wrapper'>
             <a href="https://www.linkedin.com/in/kenlivesey/">Click here for my LinkedIn profile</a>
@@ -18,7 +20,7 @@ function Contact() {
         </div>
       </div>
       <Footer />
-    </div>
+    </>
   )
 };
 

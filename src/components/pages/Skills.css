@@ -3,23 +3,27 @@
 }
 
 .skills--wrapper {
-  height: 60vh;
+  height: 70vh;
   display: flex;
   flex-flow: column;
-  align-items: center;
-  justify-content: center;
+}
+
+.skills--container {
+  text-align: left;
+  position: relative;
   max-width: 1120px;
   width: 90%;
-  margin: 4rem auto;
+  margin: 2rem auto;
   box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
   -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
   filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
   border-radius: 10px;
 }
 
-.skills--container {
+h1.skills--container {
   text-align: left;
-  position: relative;
+  font-size: 2.2em;
+  font-weight: 300;
 }
 
 .skills--items {

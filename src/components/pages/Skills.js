@@ -1,13 +1,16 @@
 import React from 'react';
-import '../../App.css';
-// import CardItem from '../CardItem';
 import Footer from '../Footer';
+import HeaderItem from '../HeaderItem';
 import './Skills.css'
+
 
 function Skills() {
   return(
     <div className='skills'>
-    <h1>Things I know</h1>
+      <HeaderItem
+        title='Things I know'
+      >
+      </HeaderItem>
       <div className='skills--wrapper'>
         <div className='skills--container'>
           <h1>Currently learning</h1>

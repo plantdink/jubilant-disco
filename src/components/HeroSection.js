@@ -7,7 +7,7 @@ function HeroSection() {
   return (
     <div className='hero-container'>
       <h2>Ken Livesey</h2>
-      <p>Junior Software Developer</p>
+      <p>Software Developer</p>
     </div>
   )
 }

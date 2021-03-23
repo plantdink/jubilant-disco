@@ -1,5 +1,4 @@
 import React from 'react';
-import '../../App.css';
 import Project from '../Project'
 import './Projects.css';
 import Footer from '../Footer';
@@ -7,12 +6,16 @@ import TicTacToe from '../../images/20210322-TicTacToe.png';
 import CodeSnippetStudy from '../../images/20210322-CodeSnippetStudy.png';
 import IFeelLike from '../../images/20210322-IFeelLike.png';
 import DataViz from '../../images/20210322-DataViz.png';
+import HeaderItem from '../HeaderItem';
 
 function Projects() {
   return(
-    <div>
+    <>
+      <HeaderItem
+        title='Software Development Projects'
+      >
+      </HeaderItem>
       <div className='projects'>
-        <h1>Software projects</h1>
         <div className='projects--container'>
           <div className='projects--wrapper'>
             <ul className='projects--items'>
@@ -57,7 +60,7 @@ function Projects() {
         </div>
       </div>
       <Footer />
-    </div>
+    </>
   )
 };
 

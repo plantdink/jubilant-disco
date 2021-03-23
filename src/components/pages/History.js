@@ -1,12 +1,15 @@
 import React from 'react';
-import '../../App.css';
 import './History.css';
 import Footer from '../Footer';
+import HeaderItem from '../HeaderItem';
 
 function History() {
   return(
-    <div>
-    <h1>History</h1>
+    <>
+    <HeaderItem
+      title='A little about me'
+    >
+    </HeaderItem>
     <div className='history--container'>
       <div className='history--wrapper'>
         <div className='history--content'>
@@ -81,9 +84,8 @@ function History() {
         </div>
       </div>
     </div>
-
-      <Footer />
-    </div>
+    <Footer />
+    </>
   )
 };
 

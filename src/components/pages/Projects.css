@@ -1,28 +1,17 @@
 .projects {
-  min-height: 80vh;
-  padding: 4rem;
   background: #fcfcfc;
 }
 
-h1 {
-  text-align: center;
+.projects--wrapper {
 }
 
 .projects--container {
+  height: 70vh;
   display: flex;
   flex-flow: column;
   align-items: center;
   width: 90%;
-  margin: 0 auto;
-}
-
-.projects--wrapper {
-  position: relative;
-  margin: 50px 0 45px;
-}
-
-.projects--items {
-  margin-bottom: 24px;
+  margin: 2rem auto;
 }
 
 .project--header {
@@ -30,13 +19,7 @@ h1 {
   margin-bottom: 24px;
 }
 
-.project--header h1 {
-  font-size: 3em;
-  margin-bottom: 0.2em;
-  line-height: 1.2;
-}
-
-.project--header h3 {
+h3.project--header {
   font-weight: 400;
   color: #020323;
 }
@@ -68,6 +51,7 @@ h1 {
 .project h2 {
   color: #020323;
   margin-top: -0.2em;
+  margin-bottom: .5rem;
   line-height: 1.4;
   font-size: 1.3em;
   font-weight: 500;
@@ -76,23 +60,24 @@ h1 {
 
 .project p {
   color: #020323;
+  font-size: 1.2em;
+  font-weight: 300;
 }
 
 .project h5 {
   font-weight: 700;
-  font-size: 0.7em;
   letter-spacing: 0.04em;
   text-transform: uppercase;
 }
 
 .project--body {
-  min-height: 180px;
-  padding: 1.2em;
+  min-height: 240px;
+  padding: 1.5rem;
 }
 
 .project--tech {
   min-height: 16px;
-  padding: 1.2em;
+  padding: 1.5rem;
 }
 
 .project--btns {
