@@ -20,7 +20,7 @@ function Projects() {
           <div className='projects--wrapper'>
             <ul className='projects--items'>
               <Project
-                img={TicTacToe}
+                img={ TicTacToe }
                 altText='This is a purely decorative image'
                 title='Tic-Tac-Toe'
                 tech='HTML/CSS'
@@ -29,7 +29,7 @@ function Projects() {
                 siteLink='https://plantdink.github.io/project0/'
               />
               <Project
-                img={CodeSnippetStudy}
+                img={ CodeSnippetStudy }
                 altText='This is a purely decorative image'
                 title='Code Snippet Study'
                 tech='Ruby on Rails / Bootstrap'
@@ -38,7 +38,7 @@ function Projects() {
                 siteLink='https://calm-tundra-99309.herokuapp.com/'
               />
               <Project
-                img={IFeelLike}
+                img={ IFeelLike }
                 altText='This is a purely decorative image'
                 title='I Feel Like......'
                 tech='React / Ruby on Rails / API'
@@ -47,7 +47,7 @@ function Projects() {
                 siteLink='https://anchorite1001.github.io/project2-frontend/'
               />
               <Project
-                img={DataViz}
+                img={ DataViz }
                 altText='This is a purely decorative image'
                 title='LGA Data Viz'
                 tech='Ruby on Rails / API'
