@@ -17,7 +17,6 @@ function Projects() {
       </HeaderItem>
       <div className='projects'>
         <div className='projects--container'>
-          <div className='projects--wrapper'>
             <ul className='projects--items'>
               <Project
                 img={ TicTacToe }
@@ -56,7 +55,6 @@ function Projects() {
                 siteLink='https://guarded-bayou-72393.herokuapp.com/'
               />
             </ul>
-          </div>
         </div>
       </div>
       <Footer />

@@ -3,7 +3,7 @@
 }
 
 .skills--wrapper {
-  height: 70vh;
+  height: 65vh;
   display: flex;
   flex-flow: column;
 }
@@ -11,8 +11,8 @@
 .skills--container {
   text-align: left;
   position: relative;
-  max-width: 1120px;
-  width: 90%;
+  max-width: 90%;
+  padding-top: 1rem;
   margin: 2rem auto;
   box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
   -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));

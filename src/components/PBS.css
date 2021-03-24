@@ -29,3 +29,16 @@
   letter-spacing: 0.1em;
   line-height: 130%;
 }
+
+@media screen and (max-width: 960px) {
+  .pbs--container {
+    padding: 0 2rem;
+  }
+  .pbs--text {
+    padding: .4rem 0;
+  }
+
+  .pbs--wrapper {
+    font-size: .5em
+  }
+}
