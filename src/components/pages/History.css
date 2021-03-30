@@ -30,6 +30,11 @@
   line-height: 130%;
 }
 
+h1.history--text {
+  font-size: 2em;
+  font-weight: 400;
+}
+
 h2.history--text {
   padding-bottom: 0;
   font-size: 1.6em;
@@ -47,4 +52,32 @@ p.history--text {
   font-size: 1.2em;
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
+}
+
+@media screen and (max-width: 960px) {
+  .history--container {
+    padding: 0 2rem;
+  }
+
+  .history--wrapper {
+    margin-top: 20px;
+  }
+
+  h1.history--text {
+    font-size: 1.5em;
+    font-weight: 300;
+  }
+  p.history--text {
+    font-size: .6em;
+    font-weight: 300;
+  }
+
+  h2.history--text {
+    font-size: .6em;
+    font-weight: 400;
+  }
+
+  h3.history--text {
+    font-size: .6em;
+  }
 }

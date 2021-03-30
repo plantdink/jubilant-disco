@@ -9,8 +9,8 @@
   flex: 1 0 auto;
   justify-content: center;
   align-content: space-between;
-  max-width: 1120px;
-  width: 90%;
+  /* max-width: 1120px;
+  width: 90%; */
   margin: 2rem auto;
 }
 

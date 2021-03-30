@@ -3,7 +3,6 @@
 }
 
 .skills--wrapper {
-  height: 65vh;
   display: flex;
   flex-flow: column;
 }
