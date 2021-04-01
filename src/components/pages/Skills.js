@@ -30,7 +30,11 @@ function Skills() {
                 <li><i className="devicon-express-original" /> Express</li>
                 <li><i className="devicon-react-plain" /> React</li>
                 <li><i className="devicon-git-plain" /> Git</li>
+                <li><i className="devicon-github-original" /> GitHub</li>
                 <li><i className="devicon-postgresql-plain" /> PostgreSQL</li>
+                <li><i className="devicon-mysql-plain" /> MySQL</li>
+                <li><i className="devicon-mongodb-plain" /> MongoDB</li>
+                <li><i className="devicon-mocha-plain" /> Mocha</li>
               </ul>
             <h1>Multimedia and Design</h1>
               <ul className='skills--items'>

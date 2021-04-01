@@ -1,8 +1,10 @@
-# Ken Livesey Portfolio
+# The Portfolio Project
 
 So you have finished a software development bootcamp......you have "learnt" all of these new skills & languages & frameworks & programs & concepts.....what happens next?
 
-If you are like me, you start looking for a job. To get one, you need to demonstrate your skills & how do you do that? You practice them by making a portfolio site, like this one.
+If you are like me, you start looking for a job. To get one, you need to demonstrate your skills, maybe start to extend yourself by using a popular language/framework......
+
+How do you do that? You do a project, possibly a portfolio site, like this one.
 
 ## Getting Started
 
@@ -20,7 +22,7 @@ create-react-app
 
 This project is very much live and will be continually developed when I can bring myself to wrestle more with React.
 
-Feel free to fork a copy of the repo to create a version of your own. This has been a very big learning experience for me. Whilst I am still not the greatest fan of React, I acknowledge its appeal and will be happy to continue to develop my skills with it.
+Feel free to fork a copy of the repository to create a version of your own. This has been a very big learning experience for me. Whilst I am still not the greatest fan of React, I acknowledge its appeal and am happy to continue developing my skills with it.
 
 ## Deployment
 
@@ -37,7 +39,14 @@ cd test-netlify-deployment
 netlify deploy
 ```
 
-To deploy application to production:
+To deploy application to production, run the following:
+```
+npm run build
+
+netlify deploy
+```
+
+If everything looks ok when you check the draft URL, then run:
 ```
 netlify deploy --prod
 ```
@@ -59,7 +68,7 @@ I am happy if people wish to contribute. I would be flattered if anyone reads th
 
 ## Versioning
 
- This is currently Version 1.02 of this project. Current as at 30 March 2021.
+ This is currently Version 1.03 of this project. Current as at 30 March 2021.
 
 ## Authors
 
@@ -73,6 +82,4 @@ All images used remain the property of their respective copyright holders.
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* You, for making it this far in a Readme file.
