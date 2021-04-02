@@ -12,13 +12,13 @@ function Skills() {
         >
         </HeaderItem>
         <div className='skills--wrapper'>
-          <div className='skills--container'>
-            <h1>Currently learning</h1>
+          <div className='skills--container content'>
+            <h2 className='display'>Currently learning</h2>
               <ul className='skills--items'>
                 <li><i className="devicon-python-plain" /> Python</li>
                 <li><i className="devicon-amazonwebservices-original" /> AWS</li>
               </ul>
-            <h1>Software Development</h1>
+            <h2 className='display'>Software Development</h2>
               <ul className='skills--items'>
                 <li><i className="devicon-ruby-plain" /> Ruby</li>
                 <li><i className="devicon-javascript-plain" /> JavaScript</li>
@@ -36,13 +36,14 @@ function Skills() {
                 <li><i className="devicon-mongodb-plain" /> MongoDB</li>
                 <li><i className="devicon-mocha-plain" /> Mocha</li>
               </ul>
-            <h1>Multimedia and Design</h1>
+            <h2 className='display'>Design and Multimedia</h2>
               <ul className='skills--items'>
-                <li><i className="devicon-aftereffects-plain" /> After Effects</li>
                 <li><i className="devicon-illustrator-plain" /> Illustrator</li>
                 <li><i className="devicon-photoshop-plain" /> Photoshop</li>
                 <li><i className="devicon-premierepro-plain" /> Premiere Pro</li>
-                <li><i className="devicon-xd-plain" /> XD</li>
+                <li><i className="devicon-aftereffects-plain" /> After Effects</li>
+                <li><i className="devicon-xd-plain" /> Xd</li>
+                <li><i className="devicon-sketch-line" /> Sketch</li>
               </ul>
           </div>
         </div>

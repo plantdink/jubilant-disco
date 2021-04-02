@@ -8,7 +8,7 @@ How do you do that? You do a project, possibly a portfolio site, like this one.
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These [instructions](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo) will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ### Prerequisites
 
@@ -68,7 +68,7 @@ I am happy if people wish to contribute. I would be flattered if anyone reads th
 
 ## Versioning
 
- This is currently Version 1.03 of this project. Current as at 30 March 2021.
+ This is currently Version 1.5 of this project. Current as at 01 April 2021.
 
 ## Authors
 
@@ -78,7 +78,7 @@ I am happy if people wish to contribute. I would be flattered if anyone reads th
 
 This codebase for this project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-All images used remain the property of their respective copyright holders.
+All images used in this project remain the property of their respective copyright holders.
 
 ## Acknowledgments
 

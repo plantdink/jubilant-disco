@@ -11,7 +11,7 @@ function Project (props) {
         className='project--image'
       />
       <div className='project--body'>
-        <h2>{ props.title }</h2>
+        <h3 className='display'>{ props.title }</h3>
         <p>{ props.paragraph }</p>
       </div>
       <div className='project--tech'>

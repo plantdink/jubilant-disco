@@ -1,4 +1,7 @@
 .projects {
+  display: flex;
+  flex-direction: column;
+  min-height: 70vh;
   background: #fcfcfc;
 }
 
@@ -48,29 +51,19 @@ h3.project--header {
 }
 
 .project h2 {
-  color: #020323;
   margin-top: -0.2em;
-  margin-bottom: .5rem;
-  line-height: 1.4;
-  font-size: 1.3em;
-  font-weight: 500;
+  margin-bottom: 1rem;
   transition: all ease-in 100ms;
-}
-
-.project p {
-  color: #020323;
-  font-size: 1.2em;
-  font-weight: 300;
 }
 
 .project h5 {
   font-weight: 700;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
 }
 
 .project--body {
-  min-height: 240px;
+  min-height: 350px;
   padding: 1.5rem;
 }
 

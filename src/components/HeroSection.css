@@ -1,4 +1,3 @@
-/* Include images */
 .hero-container {
   background: url('../images/20130201_KSL_2403.jpg') center center/cover no-repeat;
   height: 75vh;
@@ -22,14 +21,6 @@
   color: #fcfcfc;
   font-size: 32px;
   font-family: 'Raleway', sans-serif;
-}
-
-.hero-btns {
-  margin-top: 32px;
-}
-
-.hero-btns .btn {
-  margin: 6px;
 }
 
 @media screen and (max-width: 960px) {
