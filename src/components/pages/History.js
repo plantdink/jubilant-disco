@@ -35,6 +35,15 @@ function History() {
             Worked in cross-functional teams to produce multimedia training packages. By allowing better separation between theory and practical lessons each package returned, on average, 10hrs to active policing per officer.
           </p>
           <h2 className='display'>
+            Freelancer - Video/ Photography
+          </h2>
+          <h3 className='history--text display'>
+            Self-Employed | July 2014 - February 2015
+          </h3>
+          <p className='history--text'>
+            Successfully developed a repeat customer base by providing a high quality aerial video and still photography product for use in sporting broadcasts along with general event photography.
+          </p>
+          <h2 className='display'>
             Multimedia Technician
           </h2>
           <h3 className='history--text display'>

@@ -17,6 +17,8 @@ function Skills() {
               <ul className='skills--items'>
                 <li><i className="devicon-python-plain" /> Python</li>
                 <li><i className="devicon-amazonwebservices-original" /> AWS</li>
+                <li><i className="devicon-flutter-plain" /> Flutter</li>
+                <li><i className="devicon-dart-plain" /> Dart</li>
               </ul>
             <h2 className='display'>Software Development</h2>
               <ul className='skills--items'>
@@ -43,6 +45,7 @@ function Skills() {
                 <li><i className="devicon-premierepro-plain" /> Premiere Pro</li>
                 <li><i className="devicon-aftereffects-plain" /> After Effects</li>
                 <li><i className="devicon-xd-plain" /> Xd</li>
+                <li><i className="devicon-figma-plain" /> Figma</li>
                 <li><i className="devicon-sketch-line" /> Sketch</li>
               </ul>
           </div>

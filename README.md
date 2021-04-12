@@ -14,7 +14,7 @@ These [instructions](https://docs.github.com/en/github/getting-started-with-gith
 
 This project was created using React Native and React Router. Start your own react project from scratch using the following command:
 
-```
+```js
 create-react-app
 ```
 
@@ -29,25 +29,25 @@ Feel free to fork a copy of the repository to create a version of your own. This
 This deployment method is via the command line interface and assumes you have already installed and authorised the netlify CLI tools.
 
 To install CLI tools:
-```
+```js
 npm install netlify-cli -g
 ```
 
 To authorise CLI tools:
-```
+```js
 cd test-netlify-deployment
 netlify deploy
 ```
 
 To deploy application to production, run the following:
-```
+```js
 npm run build
 
 netlify deploy
 ```
 
 If everything looks ok when you check the draft URL, then run:
-```
+```js
 netlify deploy --prod
 ```
 
@@ -55,7 +55,7 @@ netlify deploy --prod
 
 * [React Native](https://reactjs.org/) - ver 17.0.1
 * [React Router](https://reactrouter.com/) - ver 5.2.0
-* [DEVICON](https://github.com/devicons/devicon/) - for the excellent icons in the Skills section
+* [DEVICON](https://github.com/devicons/devicon/) - ver 2.11.0 - for the excellent icons in the Skills section
 * [Font Awesome](https://fontawesome.com/) - for the remaining small icons
 
 ## Hosted
@@ -68,7 +68,7 @@ I am happy if people wish to contribute. I would be flattered if anyone reads th
 
 ## Versioning
 
- This is currently Version 1.5 of this project. Current as at 01 April 2021.
+ This is currently Version 1.7.1 of this project. Current as at 13 April 2021.
 
 ## Authors
 
