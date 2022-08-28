@@ -15,16 +15,16 @@ function Footer() {
               Ken Livesey <i className='fas fa-terminal' />
             </Link>
           </div>
-          <small className='website-rights'>© Copyright 2021</small>
+          <small className='website-rights'>© Copyright 2022</small>
           <div className='social-icons'>
             <a
               className='social-icon-link'
-              href='https://github.com/plantdink'
+              href='https://www.kenlivesey.com/'
               target='_blank'
               rel='noreferrer'
-              aria-label='GitHub'
+              aria-label='Resume'
             >
-              <i className='fab fa-github-square' />
+              <i className='fa-solid fa-globe' />
             </a>
             <a
               className='social-icon-link'
@@ -34,6 +34,15 @@ function Footer() {
               aria-label='LinkedIn'
             >
               <i className='fab fa-linkedin' />
+            </a>
+            <a
+              className='social-icon-link'
+              href='https://github.com/plantdink'
+              target='_blank'
+              rel='noreferrer'
+              aria-label='GitHub'
+            >
+              <i className='fab fa-github-square' />
             </a>
             <a
               className='social-icon-link'
